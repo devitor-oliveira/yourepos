@@ -1,10 +1,15 @@
-import { Main } from "./style";
+import Card from "../Components/Card/Card";
+import Header from "../Components/Header/Header";
+import { ContainerPage, Main } from "./style";
 
 function App() {
   return (
-    <>
-      <Main>Hello World</Main>
-    </>
+    <ContainerPage>
+      <Header />
+      <Main>
+        <Card></Card>
+      </Main>
+    </ContainerPage>
   );
 }
 

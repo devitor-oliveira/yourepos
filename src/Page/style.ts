@@ -1,11 +1,18 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
+export const ContainerPage = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
-  width: 100vw;
-  background-color: #ccc;
+  padding: 4rem 0rem 0rem 0rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 1px solid yellow;
+`;
+export const Main = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid green;
 `;
